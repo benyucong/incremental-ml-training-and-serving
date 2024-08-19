@@ -124,7 +124,7 @@ if __name__ == '__main__':
     from src.paths import get_path_to_data_file
     run(
         path_to_live_data=get_path_to_data_file('live.csv'),
-        kafka_broker_address='localhost:19092',
+        kafka_broker_address='localhost:9092',
         kafka_topic_features='features',
         kafka_topic_features_with_target='features_with_target',
         delay_target=5,

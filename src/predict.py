@@ -74,7 +74,7 @@ def run(
 if __name__ == '__main__':
 
     run(
-        kafka_broker_address='localhost:19092',
+        kafka_broker_address='localhost:9092',
         kafka_input_topic='features',
         kafka_consumer_group='prediction_consumer_group',
         refresh_model=True,

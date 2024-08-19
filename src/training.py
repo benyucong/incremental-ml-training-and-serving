@@ -151,7 +151,7 @@ if __name__ == '__main__':
 
     train(
         path_to_historical_data=get_path_to_data_file('historical.csv'),
-        kafka_broker_address='localhost:19092',
+        kafka_broker_address='localhost:9092',
         kafka_input_topic='features_with_target',
         kafka_consumer_group='training_consumer_group',
     )
